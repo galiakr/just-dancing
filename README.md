@@ -5,7 +5,7 @@ Players follow the classic children’s song _“Head, Shoulders, Knees and Toes
 
 ## How to Play
 
-Open Move with the Music (https://galiakr.github.io/just-dancing/)
+Open [Move with the Music] (https://galiakr.github.io/just-dancing/)
 Allow webcam access when prompted
 Hit Start and dance!
 
