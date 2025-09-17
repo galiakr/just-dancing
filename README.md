@@ -19,4 +19,4 @@ Players follow the classic children’s song _“Head, Shoulders, Knees and Toes
 
 - Song and Images: _“Head, Shoulders, Knees and Toes”_ [Super Simple Songs](https://supersimple.com/super-simple-songs/)
 - Pose model trained with [Teachable Machine](https://teachablemachine.withgoogle.com/)
-- UI/Code by [Your Name]
+- UI/Code by [Galia Kropach](https://www.linkedin.com/in/galiakr/)
