@@ -1,21 +1,15 @@
-const MODEL_URL = 'https://teachablemachine.withgoogle.com/models/wQ6I5Z2ju/';
+// https://teachablemachine.withgoogle.com/models/cUcZ_lUtD/ point your finger up
+// https://teachablemachine.withgoogle.com/models/wQ6I5Z2ju/ head shoulders knees & toes (partially traind)
+
+import timeline from './timeline.js';
+
+const MODEL_URL = 'https://teachablemachine.withgoogle.com/models/LBoqUCB3c/';
 const AUDIO_OFFSET = 0.35;
 const PROB_THRESHOLD = 0.8;
 const STREAK_OK = 5;
 
 let songName = 'Head Shoulders Knees And Toes';
-
-const TIMELINE = [
-  { start: 0.0, end: 9.0, move: 'getready' },
-  { start: 9.0, end: 2.5, move: 'head' },
-  { start: 2.5, end: 5.0, move: 'shoulders' },
-  { start: 5.0, end: 7.5, move: 'knees' },
-  { start: 7.5, end: 10.0, move: 'toes' },
-  { start: 10.0, end: 12.5, move: 'head' },
-  { start: 12.5, end: 15.0, move: 'shoulders' },
-  { start: 15.0, end: 17.5, move: 'knees' },
-  { start: 17.5, end: 20.0, move: 'toes' },
-];
+let TIMELINE = timeline;
 
 let model, webcam, ctx, labelContainer, maxPredictions;
 let playing = false;
