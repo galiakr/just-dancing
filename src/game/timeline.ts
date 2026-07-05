@@ -1,4 +1,6 @@
-const TIMELINE = [
+import type { TimelineEntry } from './types';
+
+const TIMELINE: TimelineEntry[] = [
   { start: 0.0, end: 3.0, move: 'getready3' },
   { start: 3.0, end: 6.0, move: 'getready2' },
   { start: 6.0, end: 9.0, move: 'getready1' },

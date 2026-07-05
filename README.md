@@ -13,7 +13,18 @@ Players follow the classic children’s song _“Head, Shoulders, Knees and Toes
 
 - [TensorFlow.js](https://www.tensorflow.org/js)
 - [Teachable Machine](https://teachablemachine.withgoogle.com/) (pose model)
-- Vanilla Javascript + HTML + CSS
+- React + TypeScript, built with [Vite](https://vitejs.dev/)
+
+## Development
+
+```bash
+npm install
+npm run dev      # local dev server
+npm run build    # typecheck + production build to dist/
+npm run preview  # serve the production build locally
+```
+
+Deployed to GitHub Pages automatically on every push to `main` (see `.github/workflows/deploy.yml`).
 
 ## Credits
 
