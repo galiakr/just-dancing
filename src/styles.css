@@ -71,7 +71,7 @@ body {
   aspect-ratio: 1 / 1;
   display: block;
   border-radius: 14px;
-  background-image: url('resources/silhouette.png');
+  /* background-image is set inline (CameraCard) so the URL respects the Vite base path */
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
